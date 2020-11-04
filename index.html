@@ -3,31 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Form</title>
+    <title>User Registration</title>
 </head>
 <body>
     <h1>User Registration</h1>
     <form action="">
-
+        <p>Please fill in this form to create an account.</p>
+        
        <fieldset>
-           <legend>Registration Form</legend>
-           <p>Please fill in this form to create an account.</p>
-           <hr>
-           <label for="username">Name:</label>
-           <input type="text" placeholder="Enter Username" name="username" id="username" required> <br>
-               
-           <label for="email">Email</label>
-           <input type="text" placeholder="Enter Email" name="email" id="email" required> <br>
-       
-           <label for="pass">Password</label>
-           <input type="password" placeholder="Enter Password" name="password" id="pass" required><br>
-       
-           <label for="pass-confirm">Confirm Password</b></label>
-           <input type="password" placeholder="Confirm Password" name="password-confirm" id="pass-confirm" required><br>
-           <input type="submit">
-           <hr>
-           <p>Already have an account? <a href="#">Sign in</a>.</p>
-       </fieldset>
+           <legend>User Detail</legend>
+            <label for="title">Title: </label>
+            <select name="" id="">
+                <option value="mr">Mr.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" placeholder="Enter Your First Name" name="firstName" id="firstName" required> 
+            &nbsp;&nbsp;
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" placeholder="Enter Your Last Name" name="lastName" id="lastName" required>
+            <br>
+            <br> 
+
+            <label for="email">Email ID:</label>
+            <input type="email" placeholder="Enter Your Email" name="email" id="email" required>
+            <br>
+            <br>
+
+            <label for="userName">User Name:</label>
+            <input type="text" placeholder="Enter Your User Name" name="userName" id="userName" required>
+            <br>
+            <br>
+
+            <label for="mob">Mobile No:</label>
+            <input type="text" placeholder="Enter Your Mobile No" name="mob" id="mob" required>
+            <br>
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male" required>Male &nbsp;&nbsp;
+            <input type="radio" name="gender" value="female" required>Female&nbsp;&nbsp;
+            <input type="radio" name="gender" value="other" required>Other
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>User Credentials</legend>
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Enter Your Password" name="password" id="pass" required>
+            <br>
+            <br>
+
+            <label for="pass-confirm">Confirm Password</b></label>
+            <input type="password" placeholder="Confirm Your Password" name="password-confirm" id="pass-confirm" required>
+            <br>
+            <br>
+            <input type="checkbox" name="" id=""> By creating an account you agree to our Terms & Privacy.
+            <br>
+            <br>
+            <input type="submit" value="Complete Registration">
+            <hr>
+            <p>Already have an account? <a href="#">Sign in</a>.</p>
+
+        </fieldset>
     </form>
 </body>
 </html>
