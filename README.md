@@ -1,6 +1,20 @@
 # User-Registration-Form
 
-A simple user registration Form
+A simple user registration Form to learn form elements.
+
+## Form Elements Used:
+
+- Form tag
+- input tag
+  - text
+  - radio
+  - select
+  - checkbox
+  - placeholder
+  - required attribute
+- fieldset
+- submit button
+
 
 ## This Repo is Hosted Here:
 
