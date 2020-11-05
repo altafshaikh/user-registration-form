@@ -14,6 +14,7 @@ A simple user registration Form to learn form elements.
   - required attribute
 - fieldset
 - submit button
+- meta tags
 
 
 ## This Repo is Hosted Here:
