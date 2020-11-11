@@ -4,7 +4,8 @@
 
 body{
     margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1422513391413-ddd4f2ce3340?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1554196278-f6a49cff326c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +46,7 @@ input[type=text], select, input[type=password],input[type=email], input[type=sub
 }
 
 .user-details span{
-    color: rgb(57, 219, 25);
+    color: rgb(255, 255, 255);
 }
 
 .user-creds{
@@ -71,19 +72,19 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
 }
 
 label{
-    color: rgb(21, 255, 0);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 input[type=radio]{
     
-    color: rgb(21, 255, 0);
+    color: rgb(255, 255, 255);
 }
 fieldset{
-    border: 1px solid rgb(21, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
 }
 
 legend{
-    color: #45b826;
+    color:  rgb(57, 219, 25);
 }
 
 input[type=submit]:hover{
