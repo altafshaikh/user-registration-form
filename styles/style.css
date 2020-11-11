@@ -4,6 +4,11 @@
 
 body{
     margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1422513391413-ddd4f2ce3340?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .form-container{
@@ -13,11 +18,14 @@ body{
 
 .form-container .form-title{
     text-align: center;
+    color: white;
 }
 
 .form-container form{
     width: 80%;
     margin: 0 auto;
+    padding: 10px;
+    color: white;
 }
 
 input[type=text], select, input[type=password],input[type=email], input[type=submit] {
@@ -25,7 +33,7 @@ input[type=text], select, input[type=password],input[type=email], input[type=sub
     padding: 8px 15px;
     margin: 4px 0;
     display: inline-block;
-    border: 1px solid rgb(204, 204, 204);
+    border: 2px solid rgb(204, 204, 204);
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -38,4 +46,8 @@ input[type=text], select, input[type=password],input[type=email], input[type=sub
 
 .user-creds{
     margin-top: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    border: 2px solid rgb(0, 0, 0);
 }
