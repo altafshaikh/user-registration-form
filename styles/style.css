@@ -8,7 +8,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    font-family: 'Share Tech', sans-serif;
 }
 
 .form-container{
@@ -58,6 +58,7 @@ input[type=text], select, input[type=password],input[type=email], input[type=sub
 
 .user-creds p{
     text-align: center;
+    font-size: 20px;
 }
 
 .user-creds p a{
