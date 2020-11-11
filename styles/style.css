@@ -1,3 +1,41 @@
-*{
+/* *{
     border: 1px solid red;
-} 
+}  */
+
+body{
+    margin: 0;
+}
+
+.form-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-container .form-title{
+    text-align: center;
+}
+
+.form-container form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+input[type=text], select, input[type=password],input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.full-name, .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.user-creds{
+    margin-top: 5px;
+}

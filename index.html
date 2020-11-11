@@ -13,7 +13,6 @@
         <div class="form-container">
             <h1 class="form-title">User Registration Form</h1>
             <form action="" method="POST" enctype="application/x-www-form-urlencoded">
-                <p>Please fill in this form to create an account.</p>
                 <fieldset class="user-details">
                     <legend>User Detail</legend>
                     <label for="title">Title: </label>
@@ -21,21 +20,32 @@
                         <option value="mr">Mr.</option>
                         <option value="mrs">Mrs.</option>
                     </select>
-
-                    <label for="firstName">First Name:</label>
-                    <input type="text" placeholder="Enter Your First Name" name="firstName" id="firstName" required> 
-        
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" placeholder="Enter Your Last Name" name="lastName" id="lastName" required>
-
+                    <div class="full-name row">
+                        <div>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" placeholder="Enter Your First Name" name="firstName" id="firstName" required> 
+                        </div>
+                        
+                        <div>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" placeholder="Enter Your Last Name" name="lastName" id="lastName" required>
+                        </div>
+                    </div>
+                    
                     <label for="email">Email ID:</label>
                     <input type="email" placeholder="Enter Your Email" name="email" id="email" required>
         
-                    <label for="userName">User Name:</label>
-                    <input type="text" placeholder="Enter Your User Name" name="userName" id="userName" required>
+                   <div class="row">
+                        <div class="userName">
+                            <label for="userName">User Name:</label>
+                            <input type="text" placeholder="Enter Your User Name" name="userName" id="userName" required>
+                        </div>
 
-                    <label for="mob">Mobile No:</label>
-                    <input type="text" placeholder="Enter Your Mobile No" name="mob" id="mob" required>
+                        <div class="mob">
+                            <label for="mob">Mobile No:</label>
+                            <input type="text" placeholder="Enter Your Mobile No" name="mob" id="mob" required>
+                        </div>
+                   </div>
 
                     <label for="gender">Gender:</label>
                     <input type="radio" name="gender" value="male" required>Male &nbsp;&nbsp;
