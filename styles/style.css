@@ -2,127 +2,130 @@
     border: 1px solid red;
 }  */
 
-body{
-    margin: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+body {
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.unsplash.com/photo-1554196278-f6a49cff326c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Share Tech', sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Share Tech", sans-serif;
 }
 
-.form-container{
-    width: 70%;
-    margin: 0 auto;
+.form-container {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.form-container .form-title{
-    text-align: center;
-    color: white;
+.form-container .form-title {
+  text-align: center;
+  color: white;
 }
 
-.form-container form{
-    width: 80%;
-    margin: 0 auto;
-    padding: 10px;
-    color: white;
+.form-container form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  color: white;
 }
 
-input[type=text], select, input[type=password],input[type=email], input[type=submit] {
-    width: 100%;
-    padding: 8px 15px;
-    margin: 4px 0;
-    display: inline-block;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    box-sizing: border-box;
+input[type="text"],
+select,
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.full-name, .row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.full-name,
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.user-details span{
-    color: rgb(255, 255, 255);
+.user-details span {
+  color: rgb(255, 255, 255);
 }
 
-.user-creds{
-    margin-top: 5px;
+.user-creds {
+  margin-top: 5px;
 }
 
-.user-creds span{
-    color: rgb(57, 219, 25);
+.user-creds span {
+  color: rgb(57, 219, 25);
 }
 
-.user-creds p{
-    text-align: center;
-    font-size: 20px;
+.user-creds p {
+  text-align: center;
+  font-size: 20px;
 }
 
-.user-creds p a{
-    color: rgb(57, 219, 25);
+.user-creds p a {
+  color: rgb(57, 219, 25);
 }
 
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
-    border: 2px solid rgb(21, 255, 0);
-    outline: none;
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border: 2px solid rgb(21, 255, 0);
+  outline: none;
 }
 
-label{
-    color: rgb(255, 255, 255);
-    font-weight: 500;
+label {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
-input[type=radio]{
-    
-    color: rgb(255, 255, 255);
+input[type="radio"] {
+  color: rgb(255, 255, 255);
 }
-fieldset{
-    border: 1px solid rgb(255, 255, 255);
-}
-
-legend{
-    color:  rgb(57, 219, 25);
+fieldset {
+  border: 1px solid rgb(255, 255, 255);
 }
 
-input[type=submit]:hover{
-    background-color: rgb(21, 255, 0);
-    outline: none;
-    color: black;
+legend {
+  color: rgb(57, 219, 25);
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(21, 255, 0);
+  outline: none;
+  color: black;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    .form-container form{
-        width: 100%;
-    }
+@media (max-width: 575.98px) {
+  .form-container form {
+    width: 100%;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-    .form-container form{
-        width: 90%;
-    }
-
- }
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
- 
-    .form-container{
-        width: 100%;
-    }
+  .form-container form {
+    width: 90%;
+  }
 }
 
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .form-container {
+    width: 100%;
+  }
+}
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-    .row{
-        display: block;
-    }
-    .form-container{
-        width: 90%;
-    }
+@media (max-width: 1199.98px) {
+  .row {
+    display: block;
+  }
+  .form-container {
+    width: 90%;
+  }
 }
