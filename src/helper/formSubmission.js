@@ -18,10 +18,9 @@ export const formSubmission = (event) => {
     gender: form.gender.value,
     password: form.password.value,
     passwordConfirm: form.passwordConfirm.value,
-    tnc: form.tnc.value,
+    tnc: form.tnc.checked,
   };
 
-  formValidation(data);
-
-  //   console.log(data);
+  console.log(formValidation(data));
+  console.log(data);
 };
