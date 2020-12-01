@@ -1,4 +1,6 @@
 import { formValidation } from "./formValidation.js";
+import { postData } from "./postData.js";
+import { getData } from "./getData.js";
 
 export const formSubmission = (event) => {
   //prevent form refresh
@@ -21,6 +23,13 @@ export const formSubmission = (event) => {
     tnc: form.tnc.checked,
   };
 
-  console.log(formValidation(data));
-  console.log(data);
+  if (formValidation(data)) {
+    try {
+      postData(data);
+    } catch (err) {
+      console.log("error in posting the data");
+    }
+  } else {
+    console.log("form didn't pass the validation check");
+  }
 };

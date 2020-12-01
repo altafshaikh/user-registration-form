@@ -15,12 +15,12 @@
     <main>
         <div class="form-container">
             <h1 class="form-title">User Registration Form</h1>
-            <form  method="" enctype="application/x-www-form-urlencoded" name="registration">
+            <form  method="POST" enctype="application/x-www-form-urlencoded" name="registration">
                 <!-- form-section 1 -->
                 <fieldset class="user-details">
                     <legend>User Detail</legend>
                     <label for="title">Title: </label>
-                    <select name="title" id="">
+                    <select name="title">
                         <option value="mr">Mr.</option>
                         <option value="mrs">Mrs.</option>
                     </select>
@@ -71,7 +71,7 @@
                     <label for="pass-confirm">Confirm Password:</b></label>
                     <input type="password" placeholder="Confirm Your Password" name="passwordConfirm" id="pass-confirm" required>
 
-                    <input type="checkbox" name="tnc" id=""> <span>By creating an account you agree to our Terms & Privacy.</span> 
+                    <input type="checkbox" name="tnc"> <span>By creating an account you agree to our Terms & Privacy.</span> 
 
                     <input type="submit" value="Complete Registration">
                     <hr>

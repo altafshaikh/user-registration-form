@@ -8,6 +8,7 @@ export const isContainTags = (formObj) => {
       alert("contains html tags");
       return false;
     }
+    return true;
   });
 };
 
