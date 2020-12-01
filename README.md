@@ -20,6 +20,9 @@ A simple user registration Form to learn form elements.
 - :hover
 - :focus
 
+## Media Queries
+To make the website Mobile Responsive
+
 
 ## This Repo is Hosted Here:
 
